@@ -687,7 +687,7 @@ margin: 0px 0px; */
     }
 
      .question {
-        width: 90%;
+        width: 85%;
         margin: 40px auto;
         padding: 30px;
         font-size: 16px;
@@ -803,11 +803,10 @@ margin: 0px 0px; */
     }
 
     .question {
-        width: 90%;
+        width: 83%;
         margin: 40px auto;
         padding: 30px;
         font-size: 16px;
-        min-height: 195px;
     }
  .let {
         font-size: 24px;
