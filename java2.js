@@ -170,10 +170,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         } else if (stage === "role") {
             if (currentIndex < filteredPlayers.length) {
+                 no++;
                 questionElement.innerHTML = `Is the player a ${filteredPlayers[currentIndex].role}?`;
                 document.querySelector(".no").innerHTML = `Question no. ${no}`;
                 document.querySelector(".question").style.height = "170px";
-                no++;
                 document.querySelector(".question").style.height = "auto";
                 if (currentIndex > 0 && currentIndex < filteredPlayers.length && filteredPlayers[currentIndex].role === filteredPlayers[currentIndex - 1].role) {
                     currentIndex++;
