@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelector(".btn1").style.display = "none";
             document.querySelector(".btn2").style.display = "none";
             document.querySelector(".no").style.display = "none";
-            document.querySelector(".question").style.padding = "100px 41px";
+            document.querySelector(".question").style.padding = "100px 27px";
             document.querySelector(".question").style.height = "auto";
             
         }
